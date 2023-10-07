@@ -8,7 +8,7 @@ class CalculatorTest {
 @Test
     void twoPlusTwoShouldEqualFour(){
     var calculator = new Calculator();
-    calculator.add(2, 2);
+    assertEquals(4, calculator.add(2, 2));
 
 }
 }
